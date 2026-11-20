@@ -1,0 +1,18 @@
+# Audio files (use your own sample_dictation.mp3)
+*.mp3
+
+# Downloaded model weights (large files, download locally)
+models/
+
+# Environment / secrets
+.env
+*.key
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dev/test scripts
+transcribe_soap.py
+transcribe_test.py
+medical_soap_pipeline_executed.ipynb
